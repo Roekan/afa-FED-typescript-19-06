@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.input-searcher{
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+
+.results{
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #5500ff;
+}
+
+.card{
+    margin: 0.3rem 0.6rem;
+    min-width:15vh;
+    min-height:30vh;
+    border:2px solid #000;
+    background-color: #920000;
+    color: aliceblue;
+}
+
+
+.section{
+    padding: 2px;
+    margin: 2px;
+    background: rgba(0,0,0,0.3);
+}
+
+.city{
+margin-top:3px;
+}
+
+.black{
+    color: #000;
+    font-weight: bold;
+}
+
+.image{
+    margin: 3px;
+border: 1.2rem solid #000;
+border-radius: 50%;
+}
+
+.image img{
+    border-radius: 50%;   
+}
+
+.link{
+    color: blue;
+    text-decoration: underline;
+}
